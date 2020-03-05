@@ -1,0 +1,25 @@
+{
+  "name": "saucedemo-testcafe",
+  "version": "1.0.0",
+  "description": "Automated tests with TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "test:full:chrome:headless:report": "testcafe chrome:headless ./src/saucedemo/tests/ --reporter html:../report/report_file.html",
+    "test:full:chrome:headless": "testcafe chrome:headless ./src/saucedemo/tests/",
+    "test:login:chrome": "testcafe chrome ./src/saucedemo/tests/login.tests.js",
+    "test:login:chrome:headless": "testcafe chrome:headless ./src/saucedemo/tests/login.tests.js",
+    "test:cart:chrome": "testcafe chrome ./src/saucedemo/tests/shopping.cart.tests.js",
+    "test:cart:chrome:headless": "testcafe chrome:headless ./src/saucedemo/tests/shopping.cart.tests.js"
+  },
+  "keywords": [
+    "testing",
+    "automation",
+    "testcafe"
+  ],
+  "author": "Jose Osvaldo Barajas Juarez",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.8.2",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}

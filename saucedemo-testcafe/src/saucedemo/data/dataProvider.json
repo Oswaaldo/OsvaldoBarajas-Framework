@@ -1,0 +1,13 @@
+
+    {
+        "base_url": "https://www.saucedemo.com/",
+        "valid_username": "standard_user",
+        "valid_password": "secret_sauce",
+        "invalid_userusername": "Olivia Peyton",
+        "invalid_password": "tryitout",
+        "first_name": "John",
+        "last_name": "Oaks",
+        "zip": "90017",
+        "product": "Sauce Labs Backpack",
+        "products_quantity": "6"
+    }
