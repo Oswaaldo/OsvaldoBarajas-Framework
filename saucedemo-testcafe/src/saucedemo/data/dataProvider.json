@@ -9,5 +9,8 @@
         "last_name": "Oaks",
         "zip": "90017",
         "product": "Sauce Labs Backpack",
-        "products_quantity": "6"
+        "products_quantity": "6",
+        "standard": "standard_user",
+        "problem": "problem_user",
+        "performance": "performance_glitch_user"    
     }
